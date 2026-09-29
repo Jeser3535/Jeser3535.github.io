@@ -1,1 +1,0 @@
-const linksContainer = document.querySelector(".nav_menu")
