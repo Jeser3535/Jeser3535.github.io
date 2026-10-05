@@ -1,31 +1,32 @@
-# Jesse Sergent Portfolio (React + Tailwind)
+# Jesse Sergent’s Portfolio
 
-This project moves the original three-page personal site into the React/Vite/Tailwind setup shown in your screenshot.
+This is my personal portfolio website. It introduces me, shares what I’m learning, and gives visitors a place to explore my projects and get in touch. I’m continuing to build it as I gain experience.
 
-## Start it
+## What’s on the website
 
-Run npm install, then npm run dev. For a production build, run npm run build. The Vite configuration keeps the /Jeser3535.github.io/ GitHub Pages base path from your setup. Routing uses URL hashes so direct visits and refreshes work on GitHub Pages without server-side route rewrites.
+### Home: A short introduction, my search for a Summer 2027 internship, a resume link, and an overview of my current learning goals.
 
-## Where things go
+### Projects: Featured work, including my software development and full stack project plans. The project cards link to the related documents.
 
-- src/App.jsx selects the page route.
-- src/Navbar.jsx renders the shared responsive navigation.
-- src/assets/pages/ contains Home, About, and Contact.
-- src/index.css imports Tailwind 4 and defines the site colors.
-- src/App.css contains reusable card, button, and entrance animation styles.
-- public/Images/ and public/Documents/ hold static files served by Vite.
+### About: More about my background, interests, and goals.
 
-## Copy in your existing assets
+### Contact: Links to my LinkedIn, GitHub, and Handshake profiles, along with email contact information.
 
-The HTML files refer to assets that were not included with the uploaded source files. Copy them into these matching locations in public/:
+## How the code is organized
 
-- public/Images/Logo.png
-- public/Images/Personal_portrait.png
-- public/Images/tech_Logo.png
-- public/Images/linkedin-logo.png
-- public/Images/github-logo.webp
-- public/Images/handshake-logo.jpg
-- public/Images/Gmail-logo.webp
-- public/Documents/Resume.pdf
+### src/main.jsx starts the React application.
 
-The site still works without those files; image elements hide if their file is missing. The resume link expects the PDF above.
+### src/App.jsx brings the site together and chooses which page to show.
+
+### src/Navbar.jsx contains the navigation shared across the pages.
+
+### src/assets/pages/ contains the Home, About, and Contact page components.
+
+### src/index.css loads Tailwind CSS and sets global styles.
+
+### src/App.css contains additional styles used by the site.
+
+### public/ holds files the pages link to, such as images, the resume, and project documents.
+
+The site is built with React, Vite, and Tailwind CSS. React Router handles navigation, and Vite creates the files used for deployment on GitHub Pages.
+
