@@ -65,7 +65,7 @@ export default function Home() {
             Eager to apply software engineering, game development, and cybersecurity principles to real-world technical projects. Experienced in C#, Java, C, and SQL with a focus on collaborative problem-solving, clean code, and building performance-focused applications.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <a className="button button-primary" href={import.meta.env.BASE_URL + 'Documents/Resume.pdf'} target="_blank" rel="noopener noreferrer">View Resume</a>
+            <a className="button button-primary" href={import.meta.env.BASE_URL + 'Documents/Jesse Sergent Resume.pdf'} target="_blank" rel="noopener noreferrer">View Resume</a>
             <a className="button button-secondary" href="#projects">Featured Projects</a>
             <Link className="button button-outline" to="/contact">Get In Touch</Link>
           </div>
